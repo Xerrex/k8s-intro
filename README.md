@@ -19,6 +19,15 @@
 ```
     alias kubectl="minikube kubectl --"
 ```
+#### run cluster
+* Add execute permissions to deploy.sh
+```
+    sudo chmod +x deploy.sh
+```
+* run cluster
+```
+    ./deploy.sh
+```
 
 ##### start Minikube and check status
     minikube start --vm-driver=hyperkit 
